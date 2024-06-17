@@ -15,7 +15,7 @@ Custom keys ini merangkumi semua keys yang ada di keyboard.
 5. Tambahkan `KeyListener.so` (jika linux) atau `KeyListener` (jika windows) di barisan plugins pada fail `server.cfg`.
 6. Tambah callback dibawah pada fail `gamemode.pwn`:
 ```pawn
-public void:OnPlayerKeyDown(player, key) // Fungsi ini akan dipanggil apabila pemain menekan key.
+public void:OnPlayerKeyDown(player, key) // Fungsi ini akan dipanggil apabila key ditekan.
 {
     new buffer[64];
     format(buffer, sizeof(buffer), "KeyUp: %d", key); // Skrip ini adalah untuk mencari ID key.
