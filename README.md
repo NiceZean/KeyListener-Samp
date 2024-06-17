@@ -1,10 +1,10 @@
 # KeyListener 
-KeyListener adalah system cutom keys untuk samp. Tetapi ia hanya work untuk PC sahaja dan perlukan file tambahan yang perlu dipasang di folder gta samp untuk menggunakannya.
-Custom keys ini merangkumi semua keys yang ada di keyboard.
+KeyListener adalah system cutom keys untuk SAMP. Tetapi ia hanya work untuk PC sahaja dan perlukan file tambahan yang perlu dipasang di folder gta samp untuk menggunakannya.
+Sistem ini merangkumi semua kunci yang ada di keyboard.
 
 ## Cara penggunaaan (player):
 1. Muat turun fail.
-2. Ekstrak fail `KeyListener.asi` ke dalam folder GTA San Andreas.
+2. Ekstrak fail `KeyListener.asi` ke dalam folder GTA San Andreas anda.
 
 ## Cara penggunaan (server):
 1. Muat turun fail.
