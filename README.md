@@ -11,8 +11,8 @@ Custom keys ini merangkumi semua keys yang ada di keyboard.
 1. Muat turun fail `kl_server.zip`.
 2. Ekstrak fail `KeyListener.inc` ke `folder pawno > include`.
 3. Ekstrak fail `KeyListener.so` (jika linux) atau `KeyListener.dll` (jika windows) ke folder `plugin`.
-4. Takrifkan `#include <KeyListener>` di dalam `gamemode.pwn`.
-5. Takrifkan `KeyListener.so` (jika linux) atau `KeyListener` (jika windows) di barisan plugins pada fail `server.cfg`.
+4. Tambahkan `#include <KeyListener>` di dalam `gamemode.pwn`.
+5. Tambahkan `KeyListener.so` (jika linux) atau `KeyListener` (jika windows) di barisan plugins pada fail `server.cfg`.
 6. Tambah callback dibawah pada fail `gamemode.pwn`:
 ```pawn
 public void:OnPlayerKeyDown(player, key) // Fungsi ini akan dipanggil apabila pemain menekan key.
