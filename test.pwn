@@ -1,3 +1,4 @@
+#include <a_samp>
 #include <KeyListener>
 
 public void:OnPlayerKeyDown(player, key) // Fungsi ini akan dipanggil apabila key ditekan.
