@@ -1,5 +1,5 @@
 # KeyListener 
-KeyListener adalah sistem kunci tersuai untuk SAMP. Tetapi ia hanya boleh digunakan untuk PC sahaja dan perlukan fail tambahan yang perlu dipasang di folder gta samp untuk menggunakannya.
+KeyListener adalah sistem kunci tersuai untuk SAMP. Tetapi ia hanya boleh digunakan untuk PC sahaja dan perlukan fail tambahan yang perlu dipasang di folder direktori GTA San Andreas untuk menggunakannya.
 Sistem ini merangkumi semua kunci yang ada di keyboard.
 
 ## Cara penggunaaan (player):
