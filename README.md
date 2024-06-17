@@ -1,8 +1,7 @@
 # KeyListener 
-KeyListener adalah sistem kekunci tersuai atau tambahan untuk SAMP. Tetapi ia hanya boleh digunakan untuk PC sahaja dan perlukan fail tambahan yang perlu dipasang di folder direktori GTA San Andreas untuk menggunakannya.
-Sistem ini merangkumi semua kunci yang ada di keyboard.
+KeyListener adalah sistem kekunci tersuai atau tambahan untuk SAMP. Tetapi ia hanya boleh digunakan untuk PC sahaja dan perlukan fail tambahan yang perlu dipasang di folder direktori GTA San Andreas untuk menggunakannya. Sistem ini merangkumi semua kunci yang ada di papan kekunci.
 
-## Cara penggunaaan (player):
+## Cara penggunaaan (pemain):
 1. Muat turun fail.
 2. Ekstrak fail `KeyListener.asi` ke dalam folder GTA San Andreas anda.
 
@@ -24,7 +23,7 @@ public void:OnPlayerKeyDown(player, key) // Fungsi ini akan dipanggil apabila ku
     SendClientMessage(player, -1, buffer);
 }
 
-public void:OnPlayerKeyUp(player, key) // Fungsi ini akan dipanggil apabila key tidak lagi ditekan.
+public void:OnPlayerKeyUp(player, key) // Fungsi ini akan dipanggil apabila kunci tidak lagi ditekan.
 {
     new buffer[64];
     format(buffer, sizeof(buffer), "KeyUp: %d", key); // Skrip ini adalah untuk mencari ID kunci.
@@ -45,14 +44,14 @@ public void:OnPlayerKeyUp(player, key) // Fungsi ini akan dipanggil apabila key 
 public void:OnPlayerKeyDown(player, key) 
 {
     if(key == 73) /* Kunci I */ {
-        // Kod di sini akan dijalankan ketika pemain menekan key I
+        // Kod di sini akan dijalankan ketika pemain menekan kunci I
     }
 }
 
 public void:OnPlayerKeyUp(player, key) 
 {
     if(key == 73) /* Kunci I */ {
-        // Kod di sini akan dijalankan ketika pemain tidak lagi menekan key I
+        // Kod di sini akan dijalankan ketika pemain tidak lagi menekan kunci I
     }
 }
 ```
