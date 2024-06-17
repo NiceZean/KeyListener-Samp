@@ -17,33 +17,39 @@ Custom keys ini merangkumi semua keys yang ada di keyboard.
 6. Tambahkan `KeyListener.so` (jika linux) atau `KeyListener` (jika windows) di barisan plugins pada fail `server.cfg`.
 7. Tambah callback dibawah pada fail `gamemode.pwn`:
 ```pawn
-public void:OnPlayerKeyDown(player, key) // Fungsi ini akan dipanggil apabila key ditekan.
+public void:OnPlayerKeyDown(player, key) // Fungsi ini akan dipanggil apabila kunci ditekan.
 {
     new buffer[64];
-    format(buffer, sizeof(buffer), "KeyUp: %d", key); // Skrip ini adalah untuk mencari ID key.
+    format(buffer, sizeof(buffer), "KeyUp: %d", key); // Skrip ini adalah untuk mencari ID kunci.
     SendClientMessage(player, -1, buffer);
 }
 
 public void:OnPlayerKeyUp(player, key) // Fungsi ini akan dipanggil apabila key tidak lagi ditekan.
 {
     new buffer[64];
-    format(buffer, sizeof(buffer), "KeyUp: %d", key); // Skrip ini adalah untuk mencari ID key.
+    format(buffer, sizeof(buffer), "KeyUp: %d", key); // Skrip ini adalah untuk mencari ID kunci.
     SendClientMessage(player, -1, buffer);
 }
 ```
-
+Parameter:
+```
+- player : Adalah pemboleh ubah untuk ID pemain.
+- key : Adalah pemboleh ubah untuk ID kunci.
+```
 Contoh Skrip:
 ```pawn
+// 73 adalah ID untuk kunci I.
+
 public void:OnPlayerKeyDown(player, key) 
 {
-    if(key == 73) /* Key I */ {
+    if(key == 73) /* Kunci I */ {
         // Kod di sini akan dijalankan ketika pemain menekan key I
     }
 }
 
 public void:OnPlayerKeyUp(player, key) 
 {
-    if(key == 73) /* Key I */ {
+    if(key == 73) /* Kunci I */ {
         // Kod di sini akan dijalankan ketika pemain tidak lagi menekan key I
     }
 }
