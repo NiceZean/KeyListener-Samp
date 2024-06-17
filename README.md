@@ -3,12 +3,11 @@ KeyListener adalah system cutom keys untuk samp. Tetapi ia hanya work untuk PC s
 Custom keys ini merangkumi semua keys yang ada di keyboard.
 
 ## Cara penggunaaan (player):
-1. Muat turun fail `kl_client.zip`.
+1. Muat turun fail.
 2. Ekstrak fail `KeyListener.asi` ke dalam folder GTA San Andreas.
-3. Siap.
 
 ## Cara penggunaan (server):
-1. Muat turun fail `kl_server.zip`.
+1. Muat turun fail.
 2. Ekstrak fail `KeyListener.inc` ke folder `pawno\include`.
 3. Ekstrak fail `KeyListener.so` (jika linux) atau `KeyListener.dll` (jika windows) ke folder `plugin`.
 4. Tambahkan `#include <KeyListener>` di dalam `gamemode.pwn`.
