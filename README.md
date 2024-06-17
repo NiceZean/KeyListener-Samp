@@ -31,12 +31,14 @@ public void:OnPlayerKeyUp(player, key) // Fungsi ini akan dipanggil apabila key 
     SendClientMessage(player, -1, buffer);
 }
 ```
-Parameter:
+
+## Parameter
 ```
 - player : Adalah pemboleh ubah untuk ID pemain.
 - key : Adalah pemboleh ubah untuk ID kunci.
 ```
-Contoh Skrip:
+
+## Contoh Skrip
 ```pawn
 // 73 adalah ID untuk kunci I.
 
